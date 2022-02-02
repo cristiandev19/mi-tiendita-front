@@ -1,8 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import HelloWorld from '../components/HelloWorld';
-import HelloWorldGreet from '../modules/greet/components/HelloWorldGreet';
+import AdminPurchasesTable from '../modules/dashboard/components/AdminPurchasesTable';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -15,8 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <HelloWorld />
-        <HelloWorldGreet />
+        <AdminPurchasesTable />
       </main>
 
       <footer className={styles.footer}>
